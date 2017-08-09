@@ -20,10 +20,11 @@ public class TopGladiators {
         topList.add(new Gladiator("Hermes", 23, "26BC"));
         topList.add(new Gladiator("Spiculus", 16, "68AD"));
         topList.add(new Gladiator("Tetraites", 8, "34BC"));
-        topList.add(new Gladiator("Spartacus", 3, "234BC"));
         topList.add(new Gladiator("You", 0, "1991AD"));
     }
 
-    
+    public ArrayList<Gladiator> getList(){
+        return topList;
+    }
 
 }

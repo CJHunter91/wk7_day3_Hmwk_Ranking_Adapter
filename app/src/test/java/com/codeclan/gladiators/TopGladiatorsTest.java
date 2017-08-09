@@ -12,6 +12,7 @@ public class TopGladiatorsTest {
 
     @Test
     public void canGetCorrectListSize(){
-        assertEquals(10, TopGladiators.getList().size());
+        TopGladiators rankings = new TopGladiators();
+        assertEquals(10, rankings.getList().size());
     }
 }
