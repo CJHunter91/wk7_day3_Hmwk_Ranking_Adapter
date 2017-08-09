@@ -15,7 +15,7 @@ public class GladiatorTest {
 
     @Before
     public void before() {
-        gladiator = new Gladiator("Maximus", 10, "232BC");
+        gladiator = new Gladiator(1,"Maximus", 10, "232BC");
     }
 
     @Test
@@ -31,5 +31,10 @@ public class GladiatorTest {
     @Test
     public void canGetDob() {
         assertEquals("232BC", gladiator.getDob());
+    }
+
+    @Test
+    public void canGetRanking(){
+        assertEquals(1, gladiator.getRanking());
     }
 }

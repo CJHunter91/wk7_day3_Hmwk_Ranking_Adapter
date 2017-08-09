@@ -8,9 +8,11 @@ public class Gladiator {
 
     private String name;
     private int wins;
+    private int ranking;
     private String dob;
 
-    public Gladiator(String name, int wins, String dob){
+    public Gladiator(int ranking,String name, int wins, String dob){
+        this.ranking = ranking;
         this.name = name;
         this.wins = wins;
         this.dob = dob;
@@ -27,5 +29,9 @@ public class Gladiator {
 
     public String getDob() {
         return dob;
+    }
+
+    public int getRanking() {
+        return ranking;
     }
 }
