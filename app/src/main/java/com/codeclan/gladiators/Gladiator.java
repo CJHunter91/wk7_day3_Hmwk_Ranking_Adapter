@@ -5,4 +5,19 @@ package com.codeclan.gladiators;
  */
 
 public class Gladiator {
+
+    private String name;
+    private int wins;
+    private String dob;
+
+    public Gladiator(String name, int wins, String dob){
+        this.name = name;
+        this.wins = wins;
+        this.dob = dob;
+    }
+
+
+    public String getName() {
+        return name;
+    }
 }
