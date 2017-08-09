@@ -20,4 +20,8 @@ public class Gladiator {
     public String getName() {
         return name;
     }
+
+    public int getWins() {
+        return wins;
+    }
 }
