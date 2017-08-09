@@ -12,18 +12,24 @@ import static org.junit.Assert.assertEquals;
 public class GladiatorTest {
 
     Gladiator gladiator;
+
     @Before
-    public void before(){
+    public void before() {
         gladiator = new Gladiator("Maximus", 10, "232BC");
     }
 
     @Test
-    public void canGetName(){
+    public void canGetName() {
         assertEquals("Maximus", gladiator.getName());
     }
 
     @Test
-    public void canGetWins(){
+    public void canGetWins() {
         assertEquals(10, gladiator.getWins());
+    }
+
+    @Test
+    public void canGetDob() {
+        assertEquals("232BC", gladiator.getDob());
     }
 }

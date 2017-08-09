@@ -24,4 +24,8 @@ public class Gladiator {
     public int getWins() {
         return wins;
     }
+
+    public String getDob() {
+        return dob;
+    }
 }
